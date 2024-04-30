@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(152, 152, 252),rgb(247, 179, 54));
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+
+.container {
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    height: 285px;
+    width: 465px;
+    border-radius: 8px;
+    box-shadow: 5px 2px 7px rgba(black, black, black, .5);
+}
+
+.container select {
+    color: bisque;
+    background-color: rgb(255, 123, 0);
+    font-size: 1.2rem;
+    width: 197px;
+    padding: 4px 30px;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.container input {
+    padding: 6px;
+    margin: 5px;
+    border-radius: 8px;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(221, 205, 205);
+    outline: none;
+    border: none;
+}
+
+#errmsg {
+    height: 25px;
+    width: 300px;
+    margin: 10px auto 2px auto;
+    color: rgb(255, 24, 24);
+}
+
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+#Button {
+    position: relative;
+    top: -5px;
+    margin: 3px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: 400;
+    transition: 0.5s;
+    background: rgb(255, 123, 0);
+}
+
+#Button:hover {
+    background: rgb(243, 146, 55);
+    cursor: pointer;
+    color: blanchedalmond
+}
+
+#Button:active {
+    top: 0;
+}
+
+
